@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-image: url("/imagenes/fondo.jpg");
+  background-size: cover;
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.8fr 2fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  color: white;
+  padding: 0px 40px;
+}
+
+.title {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 20px;
+  color: #7f7857;
+  display: flex;
+  justify-content: center;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left h1 {
+  font-size: 70px;
+}
+
+.up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+.up hr {
+  width: 75px;
+  border: 1px solid #7f7857;
+  margin: 0 10px;
+}
+
+.up h5 {
+  color: #7f7857;
+  margin: 0;
+}
+
+.right {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.right h2 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.right h4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid-info {
+  background-color: #653e7f;
+  padding: 20px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.grid-info p {
+  font-weight: normal;
+}
+
+.grid-info h3 {
+  margin-bottom: 5px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #313131;
+  flex-direction: column;
+}
+
+.code-snippet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 17px;
+  flex-direction: column;
+  height: 50%;
+}
+
+.images {
+  display: grid;
+  background-color: white;
+  display: flex;
+  gap: 10px;
+  height: 50%;
+  padding: 12px;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 105%;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.images :nth-child(2) {
+  height: 80%;
+}
+
+.images :nth-child(3) {
+  height: 80%;
+}
+
+.image-tittle {
+  background-color: #11b9d8;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.presenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presenter img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
