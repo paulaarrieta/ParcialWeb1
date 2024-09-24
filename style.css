@@ -14,7 +14,7 @@ html {
   padding: 0;
   height: 100%;
   font-family: Arial, sans-serif;
-  background-image: url("/imagenes/fondo.jpg");
+  background-image: url("imagenes/fondo.jpg");
   background-size: cover;
 }
 .container {
